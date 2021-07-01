@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+    <title>Menu</title>
+</head>
+
+<body class="estiloBody">
+    <div class="div1">
+        <h1 class="textoTitulo">Menu</h1>
+        <button class="boton" id="boton1" onclick="divPunto1()"> Punto 1 </button> <br> <br>
+        <button class="boton" id="boton2" onclick="divPunto2()"> Punto 2 </button> <br> <br>
+        <button class="boton" id="boton3"><a href="file:///C:/Users/USER/Downloads/Taller1/punto3.html"> Punto 3 </a></button> <br> <br>
+        <button class="boton" id="boton4" onclick="divPunto4()"> Punto 4 </button> <br> <br>
+        <button class="boton" id="boton5" onclick="divPunto5()"> Punto 5 </button> <br> <br>
+        <button class="boton" id="boton6" onclick="divPunto6()"> Punto 6/7</button> <br> <br>
+        <button class="boton" id="boton8" onclick="divPunto8()"> Punto 8 </button> <br> <br>
+        <button class="boton" id="boton91" onclick="divPunto9()"> Punto 9 </button> <br> <br>
+        <button class="boton" id="boton10" onclick="divPunto10()">Punto 10 </button> <br> <br>
+    </div>
+
+    <div id="caja1">
+        <!------------------------------------------------------Ejercicio 1----------------------------------------------------------------->
+        <h2 id="parrafo" class="desaparecer textoTituloC"> Par O Impar</h2>
+        <label id="label" class="desaparecer texto">Ingrese el número: </label> <br>
+        <input type="number" id="inputnumer" class="desaparecer input"><br>
+        <input type="button" class="desaparecer boton input" id="inputresul" value="Resultado" onclick="resul1(inputnumer.value)">
+
+        <!------------------------------------------------------Ejercicio 2----------------------------------------------------------------->
+        <h2 id="parrafo2" class="desaparecer textoTituloC">Tablas de Multiplicar</h2>
+        <label id="label2" class="desaparecer texto">Ingrese el número: </label> <br>
+        <input type="number" id="inputnumer2" class="desaparecer input"><br>
+        <input type="button" class="desaparecer boton input" id="inputresul2" value="Resultado" onclick="resul2(inputnumer2.value)"><br><br>
+
+        <!------------------------------------------------------Ejercicio 4----------------------------------------------------------------->
+        <h2 id="parrafo3" class="desaparecer textoTituloC">Es Primo O No?</h2>
+        <input type="number" id="inputnumer4" class="desaparecer input"><br>
+        <input type="button" class="desaparecer boton input" id="inputresul4" value="Resultado" onclick="Primo(inputnumer4.value)"><br><br>
+
+        <!------------------------------------------------------Ejercicio 5----------------------------------------------------------------->
+        <h2 id="parrafo4" class="desaparecer textoTituloC"> Ordenar De Forma Ascendiente </h2>
+        <label id="label3" class="desaparecer texto">[12,50,23,11,18,35,41,85,16,45]</label>
+        <label id="label4" class="desaparecer texto"> [11,12,16,18,23,35,41,45,50,85]</label>
+        <input type="button" class="desaparecer boton input" id="inputresul5" value="Ordenar"> <br> <br>
+
+        <!------------------------------------------------------Ejercicio 6----------------------------------------------------------------->
+        <label id="label5" class="desaparecer texto">Ingrese el nombre:</label><br>
+        <input type="text" id="texto6" class="desaparecer input"><br>
+        <label id="label6" class="desaparecer texto">Edad:</label><br>
+        <input type="number" id="inputnumer5" class="desaparecer input"><br>
+        <input type="button" class="desaparecer boton input" id="inputresul6" value="Entrar"> <br>
+        <input type="button" class="desaparecer boton input" id="inputresul7" value="Ver"><br><br><br>
+        <input type="text" class="desaparecer input" id="texto61" placeholder="Nombre A Buscar"><br>
+        <input type="button" class="desaparecer boton input" id="inputbuscar6" value="Entrar"><br> <br>
+        <input type="button" class="desaparecer boton input" value="Ordenar" id="ordenar7" onclick="solci7(edades)">
+
+
+        <!------------------------------------------------------Ejercicio 8----------------------------------------------------------------->
+        <h2 id="parrafo7" class="desaparecer textoTituloC" style="margin-top: -40PX;">Palindromo o no?</h2>
+        <label id="label81" class="desaparecer texto"> Escriba la palabra:</label> <br>
+        <input type="text" id="texto8" class="desaparecer input"><br>
+        <input type="button" class="desaparecer boton input" id="inputresul8" value="Enviar"> <br> <br>
+
+        <!------------------------------------------------------Ejercicio 9----------------------------------------------------------------->
+        <h2 class="desaparecer textoTituloC" id="numer9" style="margin-top:-20%;">Fibonacci por consola</h2>
+        <input type="button" onclick="alerta()" id="boton9" class="desaparecer boton input" value="Mostrar" />
+        <!-----------------------------------------------------Ejercicio 10----------------------------------------------------------------->
+        <h2 id="parrafo9" class="desaparecer textoTituloC" style="margin-top: -20%;">Calcular valor aproximado de pagar de tus aportes</h2>
+        <input type="number" id="inputnumer10" class="desaparecer input" /><br>
+        <br><br>
+        <input type="button" class="desaparecer boton input" id="inputresul10" value="Calcular" name="Calcular" onclick="calcular()" />
+
+    </div>
+
+    <script src=" ./assets/js/logica1.js "></script>
+</body>
+
+</html>

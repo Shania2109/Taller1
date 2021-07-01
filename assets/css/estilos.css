@@ -1,0 +1,120 @@
+.estiloBody {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div1 {
+    height: 970px;
+    width: 40%;
+    background-color: rgba(102, 101, 116, 0.507);
+    text-align: center;
+    /*flex-direction: column;*/
+}
+
+.resultados {
+    height: 970px;
+    width: 50%;
+    background-color: rgba(102, 101, 116, 0.507);
+}
+
+.textoTitulo {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 90px;
+    color: #eef1e5;
+    text-shadow: 0 8px 9px #6b4c1b, 0px -2px 1px #fff;
+    border-radius: 20px;
+}
+
+
+/*Decoracion de botones con hover y active*/
+
+.boton {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #6b4c1b;
+    background-color: #eef1e5;
+    border-radius: 6px;
+    border: 2px solid #6b6b6b;
+}
+
+.boton:hover {
+    color: #eef1e5;
+    background-color: #6b4c1b;
+}
+
+.boton:active {
+    color: #6b4c1b;
+    background-color: #eef1e5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#boton:hover {
+    opacity: .8;
+}
+
+
+/*estilo de la caja*/
+
+#caja1 {
+    width: 50%;
+    margin: auto;
+    height: 0px;
+    background: rgb(121, 112, 112);
+    box-shadow: 10px 10px 3px #D8D8D8;
+    transition: height 0.4s;
+    text-align: center;
+}
+
+.input {
+    margin: auto;
+}
+
+.desaparecer {
+    display: none;
+}
+
+.textoTituloC {
+    color: #fff;
+    font-size: xx-large;
+    margin: 100px;
+}
+
+.texto {
+    font-size: 25px;
+    color: #fff;
+}
+
+.inputr {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.divtodo {
+    width: 98%;
+    background-color: rgb(121, 112, 112);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.tablas {
+    height: 250px;
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 205px;
+    display: flex;
+    justify-content: center;
+}
